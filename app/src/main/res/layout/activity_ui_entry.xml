@@ -174,8 +174,14 @@
             android:layout_height="wrap_content"
             android:text="custom_view_simple"
             android:textAllCaps="false"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/btn_circle_view"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnWeChatWaveView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WeChat voice Wave View"
+            android:textAllCaps="false"
             tools:ignore="HardcodedText" />
 
         <Button
@@ -184,8 +190,6 @@
             android:layout_height="wrap_content"
             android:text="btn_view"
             android:textAllCaps="false"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/btn_custom_view_simple"
             tools:ignore="HardcodedText" />
 
         <Button

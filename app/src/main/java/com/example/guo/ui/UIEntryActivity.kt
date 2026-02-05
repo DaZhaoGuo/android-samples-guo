@@ -90,6 +90,7 @@ class UIEntryActivity : AppCompatActivity() {
         btnConstraintLayout.setOnClickListener { ConstraintSampleActivity.start(this@UIEntryActivity) }
         btnCircleView.setOnClickListener { CircleViewSampleActivity.start(this@UIEntryActivity) }
         btnCustomViewSimple.setOnClickListener { CustomViewSimpleActivity.start(this@UIEntryActivity) }
+        btnWeChatWaveView.setOnClickListener {  }
         btnView.setOnClickListener { ViewActivity.start(this@UIEntryActivity) }
 
         findViewById<View>(R.id.toolbar_simple).setOnClickListener { view: View? ->

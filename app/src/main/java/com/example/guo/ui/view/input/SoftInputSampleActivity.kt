@@ -4,12 +4,11 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.guo.compat.setupImeInsets
 import com.example.guo.databinding.ActivitySoftInputSampleBinding
 
 class SoftInputSampleActivity : AppCompatActivity() {
-
     companion object {
-
         @JvmStatic
         fun start(context: Context) {
             val intent = Intent(context, SoftInputSampleActivity::class.java)
@@ -24,5 +23,6 @@ class SoftInputSampleActivity : AppCompatActivity() {
         binding = ActivitySoftInputSampleBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
+        setupImeInsets(binding.root)
     }
 }
