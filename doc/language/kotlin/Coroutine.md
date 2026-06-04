@@ -33,6 +33,10 @@ viewModelScope.launch {
 * coroutine 里遇到 suspend 会挂起当前协程
 * 不会阻塞线程
 
+# 代码如何执行
+
+launch启动协程后，在协程代码块内的suspend函数会等其返回结果再往下执行
+
 # 设计Coroutine的目的：
 
 让异步、并发、取消、错误处理都变得更像普通代码、更可管理
