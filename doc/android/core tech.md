@@ -1,14 +1,15 @@
-IPC多进程
-AIDL
-Binder
+## IPC多进程
+* AIDL
+* Binder
 
-事件分发
-消息队列
+## 
+* 事件分发
+* 消息队列
 
 
-底层服务：
+## 底层服务：
 
-SurfaceFlinger
+* SurfaceFlinger
 
 码出高效  java开发手册
 深入理解java虚拟机

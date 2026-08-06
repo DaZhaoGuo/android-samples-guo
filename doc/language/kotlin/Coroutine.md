@@ -1,3 +1,11 @@
+# What
+Coroutine本质是一个可以暂停、恢复执行的代码块。
+
+suspend不是阻塞线程，而是保存执行状态
+
+## 为什么suspend能暂停
+编译器把 suspend 函数改造成 State Machine
+
 # 一句话总结：
 
 Coroutine 让异步代码写起来像同步代码，同时避免阻塞线程
