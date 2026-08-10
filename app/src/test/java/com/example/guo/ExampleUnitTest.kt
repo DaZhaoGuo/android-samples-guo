@@ -1,4 +1,4 @@
-package com.example.original_module
+package com.example.guo
 
 import org.junit.Test
 
