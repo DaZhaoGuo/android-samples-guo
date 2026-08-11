@@ -11,12 +11,12 @@ class JetpackDemoViewModel : BaseViewModel() {
     var counter = MutableLiveData<Int>()
 
     fun plus() {
-//        launchOnUI {
-//            CoroutineSample().main()
-//        }
+        launchOnUI {
+            CoroutineSample().test1()
+        }
 
         viewModelScope.launch {
-            CoroutineSample().main()
+            CoroutineSample().test2()
         }
         counter.value = 3
     }
