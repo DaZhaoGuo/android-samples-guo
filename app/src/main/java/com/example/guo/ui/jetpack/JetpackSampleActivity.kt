@@ -28,6 +28,7 @@ class JetpackSampleActivity : AppCompatActivity() {
 
         viewModel = ViewModelProviders.of(this).get(JetpackDemoViewModel::class.java)
         viewModel.plus()
+        viewModel.testDelay()
 
         initObserver()
     }
