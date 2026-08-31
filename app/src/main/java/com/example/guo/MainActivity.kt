@@ -29,6 +29,7 @@ import com.example.guo.net.rxjavaretrofit.RxjavaRetrofitTest
 import com.example.guo.ui.service.StartServiceTestActivity
 import com.example.guo.ui.UIEntryActivity
 import com.example.guo.debug.DebugToolsManager
+import com.example.guo.exception.anr.ExceptionSampleActivity
 import com.example.guo.service.start.ClipboardMonitorService
 import com.example.guo.ui.live.HeartFlowActivity
 import com.example.guo.wallet.WalletActivity
@@ -86,6 +87,8 @@ class MainActivity : AppCompatActivity() {
         binding.btnJavaJsCall.setOnClickListener { JavaJSCallActivity.start(this) }
         binding.btnJni.setOnClickListener { JNISampleActivity.start(this) }
         findViewById<View>(R.id.btn_wallet).setOnClickListener { WalletActivity.start(this@MainActivity) }
+        binding.btnException.setOnClickListener { ExceptionSampleActivity.launch(this) }
+
 
         yufa()
 
