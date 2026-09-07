@@ -48,9 +48,9 @@ HD 钱包包含以树结构派生的密钥
 # Seeds and Mnemonic Codes (BIP-39)
 * Random -> mnemonic -> seed -> ECKeyPair
 
-1.根据随机数从2048个常用词汇中选出12/24个单词作为mnemonic codes
-2.根据助记词生成种子  
-3.seed做sha256后生成公私钥对
+1. 根据随机数从2048个常用词汇中选出12/24个单词作为mnemonic codes
+2. 根据助记词生成种子  
+3. seed做sha256后生成公私钥对
 
 ```
 byte[] initialEntropy = new byte[16];
@@ -67,7 +67,7 @@ seed做sha256后生成公私钥对
 * Secp256k1创建公私钥
 * priKey: 64位
 * pubKey: 128位 priKey椭圆曲线算法得到
-* address: 40位 公钥keccak256公钥得到的hash值，取后40位
+* address: 40位 公钥keccak256得到的hash值，取后40位
 
 # bip-44
 
