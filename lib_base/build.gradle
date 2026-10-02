@@ -35,6 +35,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
     implementation 'com.github.JessYanCoding:AndroidAutoSize:v1.2.1'
-    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.13'
 
 }

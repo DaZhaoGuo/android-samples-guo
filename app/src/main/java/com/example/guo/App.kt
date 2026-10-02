@@ -24,6 +24,7 @@ class App : Application() {
         // RuleController可有可无
 //        RuleController.getInstance(this)
 //            .setRules(RuleController.parseRules(this, R.xml.main_split_config))
+        LeakCanarySetup.install(this)
         SplitManager.createSplit() // WindowManager api管理分屏
 
         // /data/user/0/package/files/mmkv

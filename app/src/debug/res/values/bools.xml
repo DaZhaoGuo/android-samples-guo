@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Profile 会把 debug 包做成不可调试，自动安装会在启动时抛 Error。 -->
+    <bool name="leak_canary_watcher_auto_install">false</bool>
+</resources>
